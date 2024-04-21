@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("./fotograflar/hobilerim.jpg");
+}
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 30px;
+}
+header {
+    background-color: aqua;
+    color: rgb(70, 70, 70);
+    text-align: center;
+    padding: 20px;
+    border: 5px solid rgb(70, 70, 70);
+    border-radius: 15px;
+    margin: 0 30px;
+}
+.hobi {
+    border: 8px solid aqua;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+h1 {
+    margin-top: 0;
+}
+h2 {
+    color: aqua;
+    border-bottom: 5px solid rgb(70, 70, 70);
+    padding-bottom: 10px;
+}
+p {
+    line-height: 1.6;
+    font-size: 20px;
+    font-weight: 700;
+}
+.hobi:last-child {
+    margin-bottom: 0;
+}

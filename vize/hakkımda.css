@@ -1,0 +1,33 @@
+header {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 999; 
+    border: 8px solid aqua;
+    padding: 20px;
+    text-align: center;
+    color: rgb(70, 70, 70);  
+    background-color: aqua;
+}
+body {
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url("./fotograflar/benkimim.webp");
+    background-size: 15%; 
+}
+
+p {
+    position: fixed; 
+    left: 0; 
+    text-align: left; 
+    margin-top: -105px;  
+    padding: 10px;
+    color: rgb(255, 255, 255);  
+    background-color: rgb(70, 70, 70);
+}

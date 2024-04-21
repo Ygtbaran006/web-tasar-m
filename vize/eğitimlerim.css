@@ -1,0 +1,71 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(128, 128, 128);
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: aqua;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 36px;
+}
+
+.okul {
+    background-color: rgb(70,70,70);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.okul::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px; 
+    background-color: #000; 
+    z-index: -1; 
+}
+
+.okul img {
+    max-width: 500px;
+    height: auto;
+    margin-right: 50px;
+}
+
+.okul .content {
+    flex: 1;
+}
+
+.okul h2 {
+    color: aqua;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.okul p {
+    color: #696969;
+    font-size: 25px;
+    line-height: 1;
+}
+.school-details{
+    font-size: 24px;
+}

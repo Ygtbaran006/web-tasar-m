@@ -1,0 +1,44 @@
+header {
+    border: 5px solid rgb(70, 70, 70);
+    background-color: turquoise;
+    text-align: center;
+    padding: 20px;
+}
+body {
+    background-image: url("./fotograflar/mesajgöderin2.png");
+    background-size: 75%; 
+    background-repeat: no-repeat; 
+    background-position: center -120%; 
+}
+
+.container {
+    margin: 50px auto;
+    width: 50%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 20px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00cccc;
+}
+h1{
+    color:rgb(0, 0, 0)
+}

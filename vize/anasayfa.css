@@ -1,0 +1,134 @@
+header {
+    color: white; 
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px; 
+    border: 3px solid rgb(56, 56, 56); 
+    border-radius: 8px; 
+}
+
+body {
+    background-image: url("./fotograflar/dağ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; 
+}
+
+header {
+    background-color: #00ffff;
+    color: rgb(47, 1, 255);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 130px; 
+    background-color: #333;
+    color:#00fff2; 
+    border-radius: 8px;
+    height: 96vh;
+    border-radius: 8px;
+    border-right: rgb(128, 128, 128);
+    padding: 16px;
+}
+
+.sidebar {
+    border-right: 3px solid rgb(128, 128, 128); 
+}
+
+.sidebar-right {
+    border-left: 3px solid gray; 
+}
+
+.sidebar ul, .sidebar-right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li, .sidebar-right li {
+    padding: 8px; 
+}
+
+.sidebar a, .sidebar-right a {
+    color: #00fff2;
+    text-decoration: none;
+}
+
+.sidebar a:hover, .sidebar-right a:hover {
+    text-decoration: underline;
+}
+
+.content, .main-content {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #00fff2;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    border-top: 10px solid #00fff2; 
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+}
+.main-content {
+    flex: 1;
+    background-color: gray;
+    padding: 20px;
+}
+.sidebar-right {
+    width: 130px;
+    background-color: #333;
+    padding: 16px;
+    position: absolute;
+    top: 20;
+    right: 0;
+    height: 96vh;
+    border-radius: 8px;
+    border-right: rgb(128, 128, 128);
+
+}
+.sidebar-left {
+    float: left; /* Sol tarafa yerleştir */
+    width: 200px; /* Genişlik ayarlayabilirsiniz */
+    /* Diğer stiller */
+}
+
+
